@@ -1,1 +1,1 @@
-# Image-analysis-using-Bateman-moment
+# Predict-CustomerLifetimeValue-CLTV
