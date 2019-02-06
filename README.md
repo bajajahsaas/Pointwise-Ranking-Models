@@ -1,4 +1,4 @@
-# Ranking-Models
+# Ranking Models
 
 ## Pointwise
 Training learning-to-rank (LTR) using pointwise approaches. Using these approaches, the relativity in ranked list is not considered, which is very important as relative set of documents often decide the correct rank of a document. However, these pointwise models are fast to train and predict.
@@ -15,3 +15,6 @@ Pairwise ranking models incorporate the relativity in a ranked list which is ver
 
 Most commonly used models are - SgdSVM, RankNet, LambdaRank and LambdaMart. SgdSVM is implemented using python wrapper (pysofia: https://github.com/rth/pysofia) over C++ library named sofia-ml (https://code.google.com/archive/p/sofia-ml).
 Other models are implemented using RankLib module (https://github.com/jattenberg/RankLib)
+
+## Listwise
+These models are difficult to converge because evaluation metric is not a continuous function of model parameters.
